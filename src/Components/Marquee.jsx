@@ -49,7 +49,7 @@ export default function Marquee({
         borderBottom: "1px solid #fdd9b5",
       }}
     >
-      {/* Left fade */}
+      
       <div style={{
         pointerEvents: "none",
         position: "absolute",
@@ -59,7 +59,7 @@ export default function Marquee({
         zIndex: 10,
         background: "linear-gradient(to right, #fff4ec, transparent)",
       }} />
-      {/* Right fade */}
+   
       <div style={{
         pointerEvents: "none",
         position: "absolute",
