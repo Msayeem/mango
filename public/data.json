@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "A dazzling novel about all the choices that go into a life well lived, set between life and death in a magical library of infinite possibilities.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://www.bookowlsbd.com/cdn/shop/files/9780525559498.jpg?v=1750017697"
+  },
+  {
+    "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship that teaches programmers to write readable, maintainable, and elegant code through practical examples.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://static-01.daraz.com.bd/p/7373badcbdc6d8b3e00e35a17b4ab686.jpg"
+  },
+  {
+    "id": 3,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "An iconic exploration of the universe's biggest questions — from the Big Bang to black holes — written for curious minds without a physics background.",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://static-01.daraz.com.bd/p/3c266afd95597a98c884099f7dab76c3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A mystical story of Santiago, a shepherd boy, who embarks on a journey to find a worldly treasure and discovers the true riches within himself.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://static-01.daraz.com.bd/p/7ea131155a869d7a9fec706334674a78.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "description": "A timeless guide filled with practical advice for software developers, covering topics from personal responsibility to career development and coding techniques.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://img.drz.lazcdn.com/static/bd/p/edb8b447b04e5eba45ebe89c2cef499f.jpg_960x960q80.jpg_.webp"
+  },
+  {
+    "id": 6,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "description": "A sweeping narrative of humanity's creation and evolution, exploring how biology and history shaped who we are and what we value today.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/id/9298281-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A Pulitzer Prize-winning masterpiece about racial injustice and moral growth in the American South, seen through the innocent eyes of young Scout Finch.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8810494-L.jpg"
+  },
+  {
+    "id": 8,
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "description": "A deep dive into the core mechanisms of JavaScript, helping developers truly understand the language rather than just use it superficially.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/id/9255196-L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "A groundbreaking work in evolutionary biology that introduces the gene-centered view of evolution and coins the concept of the 'meme'.",
+    "category": "Science",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/id/8739161-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A chilling dystopian novel set in a totalitarian society where Big Brother watches every move, exploring themes of surveillance, truth, and freedom.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/id/9834440-L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "An essential guide for engineers building scalable and reliable systems, covering databases, distributed systems, and data processing in depth.",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/10754726-L.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Gene: An Intimate History",
+    "author": "Siddhartha Mukherjee",
+    "description": "A compelling history of genetics from Mendel's peas to CRISPR, examining how the gene shapes identity, destiny, and the future of medicine.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/10519665-L.jpg"
+  }
+]
