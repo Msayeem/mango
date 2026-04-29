@@ -9,7 +9,7 @@ const BookCard = ({book}) => {
         <h1 className='mt-5'>Name : <span className='font-medium text-[18px]'>{book.title}</span></h1>
         <h1>Author : <span className='font-medium text-[18px]'>{book.author}</span></h1>
         <h1>In stock : <span className='font-medium text-[18px]'>{book.available_quantity}</span></h1>
-        <Link>View Details</Link>
+        <Link className='btn flex' href={`/bookDetails/${book.id}`}>View Details</Link>
         </div>
     );
 };
