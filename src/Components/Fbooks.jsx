@@ -1,5 +1,5 @@
 import React from 'react';
-import books from '../../public/data.json'
+import books from '../../public/data.json';
 import BookCard from './BookCard';
 
 
