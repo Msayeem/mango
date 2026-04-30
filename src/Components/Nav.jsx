@@ -21,7 +21,7 @@ const user=session?.user;
         </div>
 
         <div className='flex items-center gap-3'>
-            <Image className='rounded-full' src={user?.image??i1} width={60} height={50} alt='user'></Image>
+            <Image className='rounded-full' src={user?.image ?? i1} width={60} height={50} alt='user'></Image>
            {user ?  <button className='btn btn-error' onClick={async()=>await authClient.signOut()}>Logout</button>: <Link className='btn btn-neutral' href={'/login'}>Login</Link>}
         </div>
        </nav>
