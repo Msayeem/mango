@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import i1 from '../../public/user.png'
 
 const Nav = () => {
     return (
@@ -12,7 +14,10 @@ const Nav = () => {
             <Link href={'/profile'}>Profile</Link>
         </div>
 
-        <Link href={'/login'}>Login</Link>
+        <div className='flex items-center gap-3'>
+            <Image src={i1} width={50} alt='user'></Image>
+            <Link href={'/login'}>Login</Link>
+        </div>
        </nav>
     );
 };

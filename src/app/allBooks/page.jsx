@@ -28,7 +28,7 @@ const filtered=books.filter(b=> b.title.toLowerCase().includes(filteredBooks.toL
       <path d="m21 21-4.3-4.3"></path>
     </g>
   </svg>
-  <input type="search" value={filteredBooks} onChange={(e)=> setFilteredBooks(e.target.value)} required placeholder="Search by book title" />
+  <input type="search" value={filteredBooks} onChange={(e)=> setFilteredBooks(e.target.value)} placeholder="Search by book title" />
 </label>
         </div>
           <div className='flex items-center justify-between flex-wrap gap-5 w-[80%] mx-auto'>
