@@ -1,9 +1,13 @@
 "use client"
 import { authClient } from '@/lib/auth-client';
+import { useRouter } from 'next/compat/router';
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
 
 const SignUpPage = () => {
+
+  const router=useRouter();
 
  const {
     register,
@@ -18,9 +22,14 @@ const { data:res, error } = await authClient.signUp.email({
     email: data.email, // required
     password: data.password, // required
     image: data.photo,
-    callbackURL: "/",
+    
 });
-console.log(res)
+if(error){
+  toast.error('Registration failed')
+}
+else{
+  router.push("/");
+}
   }
 
     return (
