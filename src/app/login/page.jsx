@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { FcGoogle } from 'react-icons/fc';
+import { toast } from 'react-toastify';
 
 const LoginPage = () => {
 
@@ -21,6 +22,13 @@ const { data:res, error } = await authClient.signIn.email({
     rememberMe: true,
     callbackURL: "/",
 });
+
+if(error){
+  toast.error('Invalid email or password')
+}
+else{
+  toast.success('Logged in successfully!')
+}
 
   }
 

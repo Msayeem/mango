@@ -3,6 +3,7 @@ import "./globals.css";
 import Nav from "@/Components/Nav";
 import { ToastContainer } from "react-toastify";
 
+
 const PoppinsFont = Poppins({
 variable:"--font-poppins",
 subsets:["latin"],
