@@ -7,7 +7,6 @@ import { toast } from 'react-toastify';
 
 const SignUpPage = () => {
 
-  const router=useRouter();
 
  const {
     register,
@@ -27,9 +26,7 @@ const { data:res, error } = await authClient.signUp.email({
 if(error){
   toast.error('Registration failed')
 }
-else{
-  router.push("/");
-}
+
   }
 
     return (
