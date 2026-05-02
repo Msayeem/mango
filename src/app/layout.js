@@ -1,7 +1,8 @@
 import {Poppins} from "next/font/google";
 import "./globals.css";
-import Nav from "@/Components/Nav";
 import { ToastContainer } from "react-toastify";
+import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 
 
 const PoppinsFont = Poppins({
@@ -23,11 +24,12 @@ export default function RootLayout({ children }) {
       className={`${PoppinsFont.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-       <Nav></Nav>
+      <Navbar></Navbar>
        <main>
          {children}
          <ToastContainer></ToastContainer>
        </main>
+       <Footer></Footer>
         </body>
     </html>
   );

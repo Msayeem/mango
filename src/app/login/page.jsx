@@ -1,12 +1,16 @@
 "use client"
 import { authClient } from '@/lib/auth-client';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { FcGoogle } from 'react-icons/fc';
 import { toast } from 'react-toastify';
 
 const LoginPage = () => {
+
+  const router = useRouter()
 
  const {
     register,
@@ -28,6 +32,7 @@ if(error){
 }
 else{
   toast.success('Logged in successfully!')
+  router.refresh()
 }
 
   }
