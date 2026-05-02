@@ -4,16 +4,25 @@ import React from 'react';
 
 const BookCard = ({book}) => {
     return (
-        <div className='w-[300px] space-y-2 hover:scale-105 transition-all p-3 rounded-2xl bg-orange-100'>
-            <Image className=' mx-auto rounded-2xl' src={book.image_url} width={280} height={200} alt={book.title}></Image>
-       
-       <div className='space-y-2'>
-         <h1 className='mt-5'>Title : <span className='font-medium text-[18px]'>{book.title}</span></h1>
-        <h1>Category : <span className='font-medium text-[18px]'>{book.category}</span></h1>
-        <h1>Available Quantity : <span className='font-medium text-[18px]'>{book.available_quantity} copies left</span></h1>
-        <Link className='btn flex mt-5' href={`/bookDetails/${book.id}`}>View Details</Link>
-       </div>
-        </div>
+<div className='rounded-b-3xl hover:shadow-xl hover:bg-amber-50 hover:scale-105 transition-all duration-300'>
+    <div className="card  rounded-3xl w-96 shadow-xl ">
+  <figure className='h-70'>
+    <Image className='rounded-2xl hover:scale-110 transition-transform duration-300' src={book.image_url} width={160} height={100} alt={book.title}></Image>
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">{book.title}</h2>
+    <p>Category : {book.category}</p>
+    <div className="card-actions justify-end">
+       <Link
+      className="btn btn-neutral w-full mt-4 rounded-xl hover:scale-[1.02] transition-all"
+      href={`/bookDetails/${book.id}`}
+    >
+      View Details
+    </Link>
+    </div>
+  </div>
+</div>
+</div>
     );
 };
 
