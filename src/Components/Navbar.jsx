@@ -5,8 +5,11 @@ import React from 'react';
 import i1 from '../../public/user.png'
 import i3 from '../../public/mango.png'
 import { authClient } from '@/lib/auth-client';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
+
+  const path=usePathname();
 
   const { data: session } = authClient.useSession();
   const user=session?.user;
@@ -14,9 +17,9 @@ const Navbar = () => {
   const Links = () => {
     return(
     <>
-     <li><Link className='text-[18px]' href={'/'}>Home</Link></li> 
-      <li><Link className='text-[18px]' href={'/allBooks'}>All Books</Link></li> 
-      <li><Link className='text-[18px]' href={'/profile'}>Profile</Link></li> 
+     <li><Link className={`text-[18px] ${path==='/' && 'underline underline-offset-8 font-semibold text-amber-500'}`} href={'/'}>Home</Link></li> 
+      <li><Link className={`text-[18px] ${path==='/allBooks' && 'underline underline-offset-8 font-semibold text-amber-500'}`} href={'/allBooks'}>All Books</Link></li> 
+      <li><Link className={`text-[18px] ${path==='/profile' && 'underline underline-offset-8 font-semibold text-amber-500'}`} href={'/profile'}>Profile</Link></li> 
     </>
     )
   }

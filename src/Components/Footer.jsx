@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,38 +41,15 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Product */}
-          <div>
-            <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Product
+     <div>
+      <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
+              Social
             </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-              <li>
-                <Link
-                  href="/generate"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Generate
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/all-photos"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/pricing"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Pricing
-                </Link>
-              </li>
+            <ul className="flex gap-5 space-y-3 text-sm text-gray-600 dark:text-gray-400">
+<li><Link className="text-[30px]"  href={'https://www.linkedin.com/in/sayem-dev/'}><FaLinkedin></FaLinkedin></Link></li>
+<li><Link className="text-[30px]"  href={'https://github.com/Msayeem'}><FaGithub></FaGithub></Link></li>
             </ul>
-          </div>
+     </div>
 
           {/* Company */}
           <div>
@@ -81,7 +59,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <li>
                 <Link
-                  href="/about"
+                  href="#"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   About
@@ -89,7 +67,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="#"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Contact
@@ -97,7 +75,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/terms"
+                  href="#"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Terms
@@ -137,13 +115,13 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <Link
-              href="/privacy"
+              href="#"
               className="hover:text-black dark:hover:text-white transition"
             >
               Privacy
             </Link>
             <Link
-              href="/terms"
+              href="#"
               className="hover:text-black dark:hover:text-white transition"
             >
               Terms
