@@ -13,7 +13,6 @@ const AllBooksPage = () => {
   const story = filtered.filter(s => s.category == "Story")
   const tech = filtered.filter(s => s.category == "Tech")
   const science = filtered.filter(s => s.category == "Science")
-  console.log(story)
 
   return (
     <div className='my-10 lg:w-[90%] w-[90%] mx-auto'>
