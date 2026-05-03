@@ -5,9 +5,11 @@ import React from 'react';
 import i1 from '../../public/user.png'
 import i3 from '../../public/mango.png'
 import { authClient } from '@/lib/auth-client';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 const Navbar = () => {
+
+  const router=useRouter();
 
   const path=usePathname();
 
@@ -49,8 +51,8 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className='flex items-center gap-3'>
             <h1 className='font-semibold'>{user?.name}</h1>
-            <Image className='rounded-full' src={user?.image ?? i1} width={55} height={50} alt='user'></Image>
-           {user ?  <button className='btn btn-error' onClick={async()=>await authClient.signOut()}>Logout</button>: <Link className='btn btn-neutral' href={'/login'}>Login</Link>}
+            <Image className='rounded-full' src={user?.image || i1} width={55} height={50} alt='user'></Image>
+           {user ?  <button className='btn btn-error' onClick={async()=>{await authClient.signOut(); router.refresh();}}>Logout</button>: <Link className='btn btn-neutral' href={'/login'}>Login</Link>}
         </div>
         </div>
       </div>

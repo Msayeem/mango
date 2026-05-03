@@ -16,5 +16,5 @@ if(session){
  
  
 export const config = {
-  matcher: ['/profile', '/bookDetails/:path*'],
+  matcher: ['/profile', '/profile/update', '/bookDetails/:path*'],
 }

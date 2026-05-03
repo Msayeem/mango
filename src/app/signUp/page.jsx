@@ -28,8 +28,8 @@ if(error){
   toast.error('Registration failed')
 }
 else{
-  router.refresh()
   router.push('/login')
+  router.refresh()
 }
   }
 

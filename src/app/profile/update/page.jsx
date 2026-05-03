@@ -1,10 +1,13 @@
 "use client"
 import { authClient } from '@/lib/auth-client';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 
 const UpdatePage = () => {
+
+  const router=useRouter();
 
  const {
     register,
@@ -18,10 +21,13 @@ const UpdatePage = () => {
         await authClient.updateUser({
     image: data.photo,
     name: data.name,
-    callbackURL: "/profile",
+    
     
 })
-    toast.success("Profile updated successfully!");
+  router.push('/profile')
+      toast.success("Profile updated successfully!");
+
+}
   };
   
 
