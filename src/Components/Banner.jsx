@@ -1,12 +1,31 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+
+
 const Banner = () => {
     return (
-        <div className='text-center space-y-8 text-white py-20 bg-amber-400 lg:w-[80%] w-[90%] mx-auto rounded-2xl my-5'>
-            <h1 className='text-4xl font-bold'>Find Your Next Read</h1>
-        <Link className='bg-amber-500 px-3.5 py-2.5 rounded-3xl inline-block active:bg-amber-600 transition-[0.30s] hover:scale-105 ' href={'/allBooks'}>Browse Now</Link>
-        </div>
+<div className='lg:w-[80%] w-[90%] mx-auto my-15 animate__animated animate__fadeInDown'>
+
+         <div className="relative w-full h-[350px] rounded-2xl overflow-hidden">
+  
+  <Image
+    src="/bg.svg"
+    alt="background"
+    fill
+    className="object-cover"
+  />
+
+  <div className="text-center absolute inset-0 flex flex-col items-center justify-center text-white">
+    <h1 className="md:text-4xl sm:text-3xl mb-3 font-bold">Find Your Next Read</h1>
+    <Link href="/allBooks" className="mt-4 bg-amber-600 px-4 py-2 rounded-3xl hover:scale-105 duration-300 transition-transform">
+      Browse Now
+    </Link>
+  </div>
+
+</div>
+</div>
     );
 };
 

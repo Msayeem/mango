@@ -1,5 +1,6 @@
 import {Poppins} from "next/font/google";
 import "./globals.css";
+import 'animate.css';
 import { ToastContainer } from "react-toastify";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";

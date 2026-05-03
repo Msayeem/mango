@@ -4,10 +4,10 @@ import React from 'react';
 
 const BookCard = ({book}) => {
     return (
-<div className='rounded-b-3xl hover:shadow-xl hover:bg-amber-50 hover:scale-105 transition-all duration-300'>
-    <div className="card  rounded-3xl w-96 shadow-xl ">
-  <figure className='h-70'>
-    <Image className='rounded-2xl hover:scale-110 transition-transform duration-300' src={book.image_url} width={160} height={100} alt={book.title}></Image>
+
+    <div className="animate__animated animate__slideInUp card rounded-3xl w-full shadow-md hover:shadow-2xl hover:scale-105 hover:bg-amber-50 transition-all duration-300">
+  <figure className='h-70 overflow-hidden'>
+    <Image className='rounded-2xl hover:scale-110 transition-transform duration-300' src={book.image_url} width={170} height={100} alt={book.title}></Image>
   </figure>
   <div className="card-body">
     <h2 className="card-title">{book.title}</h2>
@@ -21,7 +21,6 @@ const BookCard = ({book}) => {
     </Link>
     </div>
   </div>
-</div>
 </div>
     );
 };
