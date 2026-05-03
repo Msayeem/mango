@@ -11,7 +11,7 @@ const BookCard = ({book}) => {
   </figure>
   <div className="card-body">
     <h2 className="card-title">{book.title}</h2>
-    <p>Category : {book.category}</p>
+    <p className='text-[16px]'>Category : <span className='font-medium'>{book.category}</span></p>
     <div className="card-actions justify-end">
        <Link
       className="btn btn-neutral w-full mt-4 rounded-xl hover:scale-[1.02] transition-all"

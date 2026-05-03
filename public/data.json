@@ -51,7 +51,7 @@
     "description": "A sweeping narrative of humanity's creation and evolution, exploring how biology and history shaped who we are and what we value today.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/9298281-L.jpg"
+    "image_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1703329310i/23692271.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "A Pulitzer Prize-winning masterpiece about racial injustice and moral growth in the American South, seen through the innocent eyes of young Scout Finch.",
     "category": "Story",
     "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8810494-L.jpg"
+    "image_url": "https://static-01.daraz.com.bd/p/4084a0711c388099e55c08e2c0f28a25.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "A deep dive into the core mechanisms of JavaScript, helping developers truly understand the language rather than just use it superficially.",
     "category": "Tech",
     "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/9255196-L.jpg"
+    "image_url": "https://img.drz.lazcdn.com/static/bd/p/9b2b313193f3fc16a13dc8986a439c87.jpg_720x720q80.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "A groundbreaking work in evolutionary biology that introduces the gene-centered view of evolution and coins the concept of the 'meme'.",
     "category": "Science",
     "available_quantity": 2,
-    "image_url": "https://covers.openlibrary.org/b/id/8739161-L.jpg"
+    "image_url": "https://www.bookowlsbd.com/cdn/shop/files/71_Ggj5aqKL._SL1500.jpg?v=1748349753"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "A chilling dystopian novel set in a totalitarian society where Big Brother watches every move, exploring themes of surveillance, truth, and freedom.",
     "category": "Story",
     "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/9834440-L.jpg"
+    "image_url": "https://static-01.daraz.com.bd/p/83cb389fea6e3d5df2f85d9bee2949fc.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "An essential guide for engineers building scalable and reliable systems, covering databases, distributed systems, and data processing in depth.",
     "category": "Tech",
     "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10754726-L.jpg"
+    "image_url": "https://static-01.daraz.com.bd/p/cc89f7f6595e7ca206dd4d1f267f14df.jpg"
   },
   {
     "id": 12,
@@ -105,6 +105,6 @@
     "description": "A compelling history of genetics from Mendel's peas to CRISPR, examining how the gene shapes identity, destiny, and the future of medicine.",
     "category": "Science",
     "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/10519665-L.jpg"
+    "image_url": "https://static-01.daraz.com.bd/p/02c1255d1bddc495e8f087f8079ffee1.jpg"
   }
 ]

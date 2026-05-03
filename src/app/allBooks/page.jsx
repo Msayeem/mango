@@ -16,7 +16,7 @@ const AllBooksPage = () => {
 
   return (
     <div className='my-10 lg:w-[90%] w-[90%] mx-auto'>
-      <div className='mb-3 flex items-center md:flex-row justify-between'>
+      <div className='mb-3 flex items-center md:flex-row gap-5 flex-col justify-between'>
         <h1 className=' text-3xl font-semibold'>
           All Books
         </h1>

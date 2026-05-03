@@ -18,7 +18,7 @@ const Banner = () => {
   />
 
   <div className="text-center absolute inset-0 flex flex-col items-center justify-center text-white">
-    <h1 className="md:text-4xl sm:text-3xl mb-3 font-bold">Find Your Next Read</h1>
+    <h1 className="text-4xl mb-3 font-bold">Find Your Next Read</h1>
     <Link href="/allBooks" className="mt-4 bg-amber-600 px-4 py-2 rounded-3xl hover:scale-105 duration-300 transition-transform">
       Browse Now
     </Link>

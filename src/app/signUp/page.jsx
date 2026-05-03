@@ -29,7 +29,7 @@ if(error){
 }
 else{
   router.refresh()
-  router.push('/')
+  router.push('/login')
 }
   }
 
