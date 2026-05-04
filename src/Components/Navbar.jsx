@@ -51,8 +51,8 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className='flex items-center gap-5'>
             
-          <h1 className='font-semibold'>{user?.name}</h1>
-             <Image className='rounded-full' src={user?.image || i1} width={55} height={50} alt='user'></Image>
+          <h1 className='font-semibold text-[16px] md:text-[18px]'>{user?.name}</h1>
+             <Image className='rounded-full' src={user?.image || i1} width={50} height={50} alt='user'></Image>
            
            {user ?  <button className='btn btn-error' onClick={async()=>{await authClient.signOut(); router.refresh();}}>Logout</button>: <Link className='btn btn-neutral' href={'/login'}>Login</Link>}
         </div>
