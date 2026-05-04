@@ -27,7 +27,7 @@ const UpdatePage = () => {
   router.push('/profile')
       toast.success("Profile updated successfully!");
 
-}
+
   };
   
 
