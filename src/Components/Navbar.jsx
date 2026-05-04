@@ -49,7 +49,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div className='flex items-center gap-5'>
+          <div className='flex items-center gap-3'>
             
           <h1 className='font-semibold text-[16px] md:text-[18px]'>{user?.name}</h1>
              <Image className='rounded-full' src={user?.image || i1} width={50} height={50} alt='user'></Image>
